@@ -168,7 +168,7 @@ main {
 
 }
 
-/* SECTION GROELÂNDIA ANTÁRTIDA */
+/* SECTION GROELÂNDIA - ANTÁRTIDA */
 
 .groelandia_antartida {
     margin: 60px;
@@ -231,6 +231,149 @@ main {
     display: inline-grid;
 }
 
+/* CONTACT */
+
+.contact {
+    background-image: linear-gradient(to bottom, transparent 50%, #161616 99%), url(../assets/foto-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 1600px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+ }
+
+
+.contact__text {
+    display: none;
+}
+
+.contact__maps {
+    margin: 30px;
+    display: block;
+}
+ .contact__icon{
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+
+.contact__title, .contact__title__form  {
+    font-size: 2.3rem;
+    color: #fff;
+    font-weight: 600;
+
+}
+ .contact__title{
+    margin: 0 auto;
+ }
+
+
+ .contact__text{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 20px;
+    color: #20252A;
+ }
+
+
+ .contact__form__title {
+     font-size: 2.3rem;
+    padding: 20px 0 10px;
+}
+
+.contact__form {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.contact__form label {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600;
+
+ }
+
+ .contact__form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:rgb(0, 0, 0); 
+ }
+
+ .contact__form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 150px;
+    color:rgb(0, 0, 0); 
+ }
+
+.contact__btn--enviar {
+    background-color: #a4bac7;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 20px 25px;
+    letter-spacing: 0.2rem;
+    margin: 40px;
+}
+
+.contact__btn--enviar:hover {
+    background-color: #36B0E0;
+}
+
+
+
+     /* FOOTER */
+     .footer {
+        background:#161616;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .footer__number {
+        text-decoration: none;
+        color: #7D9DAF;
+        font-weight: 600;
+        font-size: 1.8rem;
+        padding: 20px 0 40px 0;
+    }
+    
+    .footer__socialmedia{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        padding: 20px 0;
+    }
+    
+    .footer__twitter, .footer__youtube, .footer__facebook {
+        padding: 15px;
+        width: 50%;
+    }
+    
+    .footer__rigths {
+        color: #8e8a8a;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 30px 0;
+    }
 /* MEDIA QUERY */
 
 
@@ -289,7 +432,7 @@ main {
         display: block;
         text-align: center;
         margin: 20px 0 20px;
-
+        padding-bottom: 30px;
     }
 
     .groelandia__photo,
@@ -315,6 +458,40 @@ main {
     .antartida__text {
         margin: 0 30px;
     }
+
+    .box__right {
+        text-align: center;
+    }
+
+    .contact__maps {
+        display: none;
+    }
+
+    .contact__text {
+        display: block;
+    }
+    
+
+    .contact{
+        height: 1100px;
+    }
+
+    .contact__title, .contact__form__title  {
+        font-size: 1.6rem;
+    
+    }
+
+    .contact__form {
+        padding: 0 50px;
+    }
+    .contact__form label {
+        font-size: 1.2rem; 
+     }
+
+     .contact__btn--enviar {
+         font-size: 1rem;
+     }
+
 }
 
 @media screen and (max-width: 1100px) {
