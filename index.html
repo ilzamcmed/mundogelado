@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo Gelado/title></title>
-        <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
+    <title>Mundo Gelado</title>
+    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,13 +15,13 @@
     <nav class="nav">
         <ul class="menu">
             <li class="menu_link">
-                <a href="">Sobre</a>
+                <a href="#about">Sobre</a>
             </li>
             <li class="menu_link">
-                <a href="#destinos">Destinos</a>
+                <a href="#destination">Destinos</a>
             </li>
             <li class="menu_link">
-                <a href="">Contatos</a>
+                <a href="#contact">Contatos</a>
             </li>
         </ul>
         <div class="menu_hamburguer">
@@ -30,13 +30,66 @@
     </nav>
 
     <header class="header">
-        
-            <h1 class="text_title">MUNDO GELADO</h1>
-            <p class="text_subtext">A agência de viagens que te leva aos lugares mais congelantes do planeta</p>
-            <a class="btn" href="">QUERO SABER MAIS</a>
-      
+        <h1 class="text_title">MUNDO GELADO</h1>
+        <p class="text_subtext">A agência de viagens que te leva aos lugares mais congelantes do planeta</p>
+        <a class="btn" href="">QUERO SABER MAIS</a>
     </header>
 
+    <section class="about" id="about">
+        <h2 class="about__title">A agência Mundo gelado</h2>
+        <p class="about__text">Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens
+            no nosso planeta, com conforto e segurança.
+            <br>Nossos pacotes são completos e oferecem uma experiência inesquecível para você.
+            <br>Veja abaixo nossos destinos disponíveis, e se tiver alguma dúvida ou sugestão,
+            entre em contato com a gente.</p>
+    </section>
+
+    <main>
+        <section class="destination__siberia" id="destination">
+            <img class="siberia__photo" src="assets/siberia.jpg" alt="Foto de duas meninas de maio na siberia">
+            <hr class="vertical__bar">
+            <div class="destination__siberia__box">
+                <h3 class="destination__siberia__title">Sibéria</h3>
+                <p class="destination__siberia__text">O clima varia entre o clima polar e o clima continental. Na
+                    Sibéria
+                    situa-se o local habitado mais frio do mundo,
+                    a aldeia de Oymyakon.</p>
+            </div>
+        </section>
+
+        <div class="groelandia_antartida">
+            <section class="destination__groelandia">
+                <img class="groelandia__photo" src="assets/groenlandia.jpg" alt="Foto de homem entrando no rio">
+                <div class="destination__box">
+                    <h3 class="destination__title">Groenlândia</h3>
+                    <p class="destination__text groenlandia__text">A Groenlândia é a maior ilha do
+                        mundo e tem mais de 44 000 km de linha de costa. A população é escassa, confinada
+                        a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas
+                        ultrapassada pela
+                        Antártida.
+                    </p>
+                    <div class="horizontal__bar__groelandia"></div>
+                </div>
+            </section>
+
+
+
+            <section class="destination__antartida">
+                <img class="antartida__photo" src="assets/antartida.jpg" alt="Foto de homem nandando">
+                <div class="destination__box box__right ">
+                    <h3 class="destination__title">Antártida</h3>
+                    <p class="destination__text antartida__text">É o continente mais frio, mais
+                        seco,
+                        com a maior média de altitude e de maior índice de ventos fortes do planeta.[1]
+                        A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a temperatura
+                        média
+                        na costa,
+                        durante o verão, de -10 °C; no interior do continente, é de -40 °C.</p>
+                        <div class="horizontal__bar__antartida"></div>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 
 </html>
