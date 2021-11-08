@@ -1,5 +1,5 @@
-	# Desktop
-    ![Imagem para Desktop](/assets/desktop.png)
+# Desktop
+![Imagem para Desktop](/assets/desktop.png)
 
-    #Mobile
-    ![Imagem para Mobile](/assets/mobile.png)
+# Mobile
+![Imagem para Mobile](/assets/mobile.png)
